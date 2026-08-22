@@ -1,0 +1,38 @@
+=== DATE ===
+Sat Aug 22 18:12:16 EDT 2026
+
+=== MACOS ===
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+
+=== HARDWARE ===
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: Mac17,9
+      Chip: Apple M5 Pro
+      Total Number of Cores: 18 (6 Super and 12 Performance)
+      Memory: 48 GB
+      System Firmware Version: 18000.161.10
+      OS Loader Version: 18000.161.10
+
+
+=== LM STUDIO CLI ===
+LM Studio Version: 0.4.21+2
+CLI commit: 71bd99c
+
+=== LOCAL MODELS ===
+
+You have 2 models, taking up 17.28 GB of disk space.
+
+LLM                                 PARAMS    ARCH         SIZE        DEVICE    
+qwen/qwen3-coder-30b (1 variant)    30B       qwen3_moe    17.19 GB    Local     
+
+EMBEDDING                               PARAMS    ARCH          SIZE        DEVICE    
+text-embedding-nomic-embed-text-v1.5              Nomic BERT    84.11 MB    Local     
+
+
+=== LOADED MODELS ===

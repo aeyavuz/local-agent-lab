@@ -1,0 +1,1 @@
+A repository has 4200 tests. One test fails only when the entire suite runs, but passes individually. Give the five most likely engineering causes, ordered by diagnostic value.

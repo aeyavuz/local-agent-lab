@@ -1,0 +1,32 @@
+{
+  "experiment_id": "exp01-smoke-test",
+  "classification": "observational_smoke_test",
+  "controlled_benchmark": false,
+  "runtime": "LM Studio MLX",
+  "model": "Qwen3-Coder-30B",
+  "model_identifier": "local-coder",
+  "model_size_disk_gb": 17.19,
+  "loaded_memory_gib": 16.01,
+  "context_length": 32768,
+  "runs": [
+    {
+      "run_id": "A",
+      "prompt_tokens": 68,
+      "output_tokens": 221,
+      "ttft_seconds": 0.510,
+      "decode_tokens_per_second": 90.60
+    },
+    {
+      "run_id": "B",
+      "prompt_tokens": 68,
+      "output_tokens": 258,
+      "ttft_seconds": 2.969,
+      "decode_tokens_per_second": 79.14
+    }
+  ],
+  "notes": [
+    "Measurements were collected during initial setup validation.",
+    "These are observational smoke-test measurements, not controlled benchmark results.",
+    "Runtime order, thermal state, cache state, and machine load were not controlled."
+  ]
+}
