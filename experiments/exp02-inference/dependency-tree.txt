@@ -1,0 +1,4 @@
+local-agent-lab v0.1.0
+├── mlx-lm v0.31.3
+├── pytest v9.1.1 (group: dev)
+└── ruff v0.16.4 (group: dev)

@@ -1,0 +1,23 @@
+=== DATE ===
+Sat Aug 22 19:02:52 EDT 2026
+
+=== PROJECT ===
+local-agent-lab
+
+=== PYTHON ===
+Python 3.13.14
+
+=== UV ===
+uv 0.12.5 (Homebrew 2026-08-14 aarch64-apple-darwin)
+
+=== MLX ===
+0.32.1
+
+=== MLX-LM ===
+0.31.3
+
+=== RUFF ===
+ruff 0.16.4
+
+=== UV LOCK HASH ===
+493d5f93e8764a6249a6d401ea35929649a4e486d6f7f7ad418104d25fb05c93
