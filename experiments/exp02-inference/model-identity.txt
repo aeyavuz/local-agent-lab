@@ -1,0 +1,14 @@
+=== MODEL ===
+Qwen3-Coder-30B-A3B-Instruct-MLX-4bit
+
+=== FORMAT ===
+MLX / Safetensors / 4-bit
+
+=== CONFIG HASH ===
+6fb72959ce0deb110c85627c09041cbcad46163c3802914ebefd02bbcf3304e6
+
+=== WEIGHT HASHES ===
+model-00001-of-00004.safetensors  961d4610b969fcf61b015f59654da6b12a158af5a1104be0fadd75268bd9535c
+model-00002-of-00004.safetensors  916440f8de7a85b62ae74711a36b7d59bf8b04101e85a23717287cbd60fdd193
+model-00003-of-00004.safetensors  02be309a7a17b0ab0e6df48e5d6070940e05492392a3501a629c7f21d18588e2
+model-00004-of-00004.safetensors  17701098bfd26cfe4d14e4ec96e3a483a6cfe3798d4c6586638beaab48c6bf51

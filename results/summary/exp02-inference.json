@@ -1,0 +1,88 @@
+{
+  "limitations": [
+    "LM Studio did not expose native generation throughput.",
+    "Output-token counts differ between runtimes for the 16k and 32k prompts."
+  ],
+  "results": {
+    "16k": {
+      "lmstudio": {
+        "generation_tps_standard_deviation": null,
+        "mean_generation_tps": null,
+        "mean_ttft_seconds": 12.05477116680704,
+        "mean_wall_time_seconds": 13.908475616585928,
+        "observations": 5,
+        "output_tokens": [
+          99
+        ],
+        "ttft_standard_deviation_seconds": 0.4992515249196064,
+        "wall_time_standard_deviation_seconds": 0.5110039251655641
+      },
+      "mlx": {
+        "generation_tps_standard_deviation": 0.8090428498080894,
+        "mean_generation_tps": 55.01580067467921,
+        "mean_ttft_seconds": 10.411920599814039,
+        "mean_wall_time_seconds": 12.86816653338028,
+        "observations": 5,
+        "output_tokens": [
+          134
+        ],
+        "ttft_standard_deviation_seconds": 0.8183413718947676,
+        "wall_time_standard_deviation_seconds": 0.8056451406326264
+      }
+    },
+    "2k": {
+      "lmstudio": {
+        "generation_tps_standard_deviation": null,
+        "mean_generation_tps": null,
+        "mean_ttft_seconds": 1.2076742670149543,
+        "mean_wall_time_seconds": 4.608661424997263,
+        "observations": 5,
+        "output_tokens": [
+          255
+        ],
+        "ttft_standard_deviation_seconds": 0.10295667305845961,
+        "wall_time_standard_deviation_seconds": 0.44862961217659003
+      },
+      "mlx": {
+        "generation_tps_standard_deviation": 9.214184882384682,
+        "mean_generation_tps": 74.74668677540829,
+        "mean_ttft_seconds": 0.9690053001861088,
+        "mean_wall_time_seconds": 4.439899591600988,
+        "observations": 5,
+        "output_tokens": [
+          256
+        ],
+        "ttft_standard_deviation_seconds": 0.07675424980782443,
+        "wall_time_standard_deviation_seconds": 0.44831449337154633
+      }
+    },
+    "32k": {
+      "lmstudio": {
+        "generation_tps_standard_deviation": null,
+        "mean_generation_tps": null,
+        "mean_ttft_seconds": 37.620577058172785,
+        "mean_wall_time_seconds": 45.646017649793066,
+        "observations": 5,
+        "output_tokens": [
+          255
+        ],
+        "ttft_standard_deviation_seconds": 1.6567517364178268,
+        "wall_time_standard_deviation_seconds": 2.008254696996781
+      },
+      "mlx": {
+        "generation_tps_standard_deviation": 0.3471054934351028,
+        "mean_generation_tps": 37.07827461857795,
+        "mean_ttft_seconds": 31.18448395821033,
+        "mean_wall_time_seconds": 35.07643993321108,
+        "observations": 5,
+        "output_tokens": [
+          143
+        ],
+        "ttft_standard_deviation_seconds": 1.1881358903335721,
+        "wall_time_standard_deviation_seconds": 1.1978366714271353
+      }
+    }
+  },
+  "source": "results/public/exp02-inference.jsonl",
+  "source_sha256": "5a1bad3071ac7d756d888b0ca8b66927abfdb1d1f7ccc718fc371f69ad0328f6"
+}
