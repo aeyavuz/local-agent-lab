@@ -1,0 +1,43 @@
+{
+  "kind": "smoke",
+  "runs": [
+    {
+      "condition": "2k",
+      "repetition": 1,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "2k",
+      "repetition": 1,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "16k",
+      "repetition": 1,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "16k",
+      "repetition": 1,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "32k",
+      "repetition": 1,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "32k",
+      "repetition": 1,
+      "run_order": 2,
+      "runtime": "mlx"
+    }
+  ],
+  "schema_version": 1,
+  "seed": 20260823
+}

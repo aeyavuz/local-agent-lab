@@ -1,0 +1,187 @@
+{
+  "kind": "official",
+  "runs": [
+    {
+      "condition": "2k",
+      "repetition": 1,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "2k",
+      "repetition": 1,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "2k",
+      "repetition": 2,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "2k",
+      "repetition": 2,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "2k",
+      "repetition": 3,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "2k",
+      "repetition": 3,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "2k",
+      "repetition": 4,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "2k",
+      "repetition": 4,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "2k",
+      "repetition": 5,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "2k",
+      "repetition": 5,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "16k",
+      "repetition": 1,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "16k",
+      "repetition": 1,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "16k",
+      "repetition": 2,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "16k",
+      "repetition": 2,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "16k",
+      "repetition": 3,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "16k",
+      "repetition": 3,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "16k",
+      "repetition": 4,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "16k",
+      "repetition": 4,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "16k",
+      "repetition": 5,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "16k",
+      "repetition": 5,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "32k",
+      "repetition": 1,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "32k",
+      "repetition": 1,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "32k",
+      "repetition": 2,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "32k",
+      "repetition": 2,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "32k",
+      "repetition": 3,
+      "run_order": 1,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "32k",
+      "repetition": 3,
+      "run_order": 2,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "32k",
+      "repetition": 4,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "32k",
+      "repetition": 4,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    },
+    {
+      "condition": "32k",
+      "repetition": 5,
+      "run_order": 1,
+      "runtime": "mlx"
+    },
+    {
+      "condition": "32k",
+      "repetition": 5,
+      "run_order": 2,
+      "runtime": "lmstudio"
+    }
+  ],
+  "schema_version": 1,
+  "seed": 20260823
+}

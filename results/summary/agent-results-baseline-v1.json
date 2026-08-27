@@ -1,0 +1,34 @@
+{
+  "baseline": "Baseline 1",
+  "strict_success_definition": "A task succeeds only when the required verification gate is executed and passes; a correct diagnosis or edit alone is insufficient.",
+  "experiments": [
+    {
+      "experiment": "Exp 03",
+      "task": "Read-only repository operator",
+      "attempts": 3,
+      "correct_reasoning_or_edit": "3/3 correct diagnoses; 3/3 preserved the read-only boundary",
+      "verification": "0/3 executed the canonical gate",
+      "overall_strict_success": "0/3"
+    },
+    {
+      "experiment": "Exp 04",
+      "task": "Bounded calculator repair",
+      "attempts": 3,
+      "correct_reasoning_or_edit": "3/3 correct calculator repairs",
+      "verification": "0/3 ran a passing focused test and full gate; 2/3 incorrectly claimed tests passed",
+      "overall_strict_success": "0/3"
+    },
+    {
+      "experiment": "Exp 06b",
+      "task": "Specification-only Molecule Triage implementation",
+      "attempts": 1,
+      "correct_reasoning_or_edit": "Incomplete implementation; wrong required module interface",
+      "verification": "0/1 ran the gate",
+      "overall_strict_success": "0/1"
+    }
+  ],
+  "limitations": [
+    "Exp 06b is a preliminary single-attempt observation, not a three-run estimate.",
+    "Agent transcripts and private temporary-run artifacts are not part of the public release."
+  ]
+}

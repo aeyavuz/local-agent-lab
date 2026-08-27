@@ -1,0 +1,315 @@
+# Synthetic repository benchmark
+
+The following files are deterministic synthetic Python modules.
+They exist only to provide repository-like context for an inference benchmark.
+Do not infer scientific meaning from the data model.
+
+
+# file: src/service_0001.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0001:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0001(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0001(record: SampleRecord0001) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0002.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0002:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0002(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0002(record: SampleRecord0002) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0003.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0003:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0003(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0003(record: SampleRecord0003) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0004.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0004:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0004(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0004(record: SampleRecord0004) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0005.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0005:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0005(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0005(record: SampleRecord0005) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0006.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0006:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0006(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0006(record: SampleRecord0006) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0007.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0007:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0007(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0007(record: SampleRecord0007) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0008.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0008:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0008(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0008(record: SampleRecord0008) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# file: src/service_0009.py
+
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class SampleRecord0009:
+    sample_id: str
+    batch_id: str
+    measurement: float
+    qc_passed: bool
+
+
+def normalize_measurement_0009(value: float, baseline: float) -> float:
+    """Normalize one deterministic synthetic measurement.
+
+    The function is intentionally simple. These modules exist only to create
+    repeatable repository-like context for local inference benchmarking.
+    """
+    if baseline == 0:
+        raise ValueError("baseline must be non-zero")
+    return value / baseline
+
+
+def summarize_record_0009(record: SampleRecord0009) -> str:
+    status = "PASS" if record.qc_passed else "FAIL"
+    return (
+        f"sample={record.sample_id} "
+        f"batch={record.batch_id} "
+        f"measurement={record.measurement:.4f} "
+        f"qc={status}"
+    )
+
+# Benchmark task
+
+You are reviewing the synthetic repository context above.
+
+Answer concisely:
+
+1. What exception is raised when a normalization baseline is zero?
+2. What two string values represent QC status?
+3. Why should these synthetic modules not be interpreted as scientific software?
+
+Limit the response to at most 150 words.

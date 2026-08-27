@@ -3,7 +3,9 @@ name = "local-agent-lab"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
+    "httpx>=0.28.1",
     "mlx-lm>=0.31.3",
+    "rdkit>=2026.3.5",
 ]
 
 [dependency-groups]
@@ -22,3 +24,6 @@ select = ["E", "F", "I", "UP", "B", "SIM"]
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

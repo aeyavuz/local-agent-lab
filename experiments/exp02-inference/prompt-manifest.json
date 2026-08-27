@@ -1,0 +1,20 @@
+{
+  "prompts": {
+    "16k": {
+      "actual_tokens": 16229,
+      "path": "prompts/exp02/16k.txt",
+      "sha256": "ec54c30e7fee72526d90d8a4c31628faa48850c17a0cab868763e381f35e036e"
+    },
+    "2k": {
+      "actual_tokens": 2039,
+      "path": "prompts/exp02/2k.txt",
+      "sha256": "fc7bf5615ab424e16efd6360b9c6ad82c27ca2b3f3a5cc8d755a92a890412f89"
+    },
+    "32k": {
+      "actual_tokens": 32569,
+      "path": "prompts/exp02/32k.txt",
+      "sha256": "c975781fc65c23018eade3bb295da5d430329f88eef74d130c2f676af449401a"
+    }
+  },
+  "schema_version": 1
+}
