@@ -1,9 +1,15 @@
-# Baseline 1: local inference is viable; verified agent completion is not yet reliable
+# How Much Software Engineering Can I Offload to a Local 30B Model? Baseline 1
+
+> Local inference was fast enough. Trustworthy agent completion was the harder problem.
 
 ## Question
 
 How much useful software-engineering work can a high-memory Apple Silicon laptop
 complete locally before premium frontier-model intervention becomes necessary?
+
+Tests used Qwen3-Coder-30B-A3B-Instruct MLX 4-bit on an Apple M5 Pro MacBook Pro
+with 48 GB unified memory. LM Studio MLX and raw `mlx-lm` used the same physical
+checkpoint.
 
 ## Finding
 
@@ -20,6 +26,15 @@ evidence-backed completion.
 | ~2K | 1.208 s | 0.969 s | -19.7% |
 | ~16K | 12.055 s | 10.412 s | -13.4% |
 | ~32K | 37.621 s | 31.184 s | -17.1% |
+
+Five paired measurements were collected per context condition using a frozen,
+balanced run order. Each runtime received a warm-up before measurement, and the
+competing runtime was unloaded to avoid simultaneous model residency. Input
+prompts were fixed and hashed. The public [protocol](../experiments/exp02-inference/PROTOCOL.md),
+[frozen schedule](../experiments/exp02-inference/schedule.json),
+[sanitized JSONL](../results/public/exp02-inference.jsonl), and
+[summary JSON](../results/summary/exp02-inference.json) provide the
+reproducibility trail.
 
 Each mean uses five paired measurements. The public [TTFT figure](../results/summary/exp02-charts/exp02-ttft-by-context.svg)
 and [raw-MLX throughput figure](../results/summary/exp02-charts/exp02-mlx-generation-throughput.svg)
@@ -43,9 +58,10 @@ of the required verification gate counted as a failure. In Exp 04, two of three
 attempts incorrectly claimed that tests had passed.
 
 The initial interpretation is not that the local model cannot code. It could
-identify the defect and generate the small repair. The current bottleneck is
-repository-interface discovery, task-state management, and verification
-discipline: correct code is not the same as trustworthy completion.
+identify the defect and generate the small repair. In these baseline tasks, the
+dominant failures were repository-interface discovery and verification
+discipline rather than defect diagnosis or code generation: correct code is not
+the same as trustworthy completion.
 
 ## Limitations
 
